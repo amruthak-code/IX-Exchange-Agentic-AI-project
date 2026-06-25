@@ -1,0 +1,23 @@
+# Secrets — NEVER commit these (handbook safety rule)
+.env
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+
+# Raw MLS datasets — too large / not for git (keep the small verify helper)
+sql/*.sql
+!sql/verify.sql
+
+# Third-party clone of the OpenClaw runtime (has its own git history)
+openclaw/
+
+# Confidential internship handbook — do not publish
+*.pdf
+
+# OS
+.DS_Store

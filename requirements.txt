@@ -1,0 +1,7 @@
+pandas
+google-genai
+mysql-connector-python
+sqlalchemy
+scikit-learn
+numpy
+python-dotenv
